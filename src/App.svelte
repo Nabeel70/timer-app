@@ -3,6 +3,16 @@
 	import { timers } from './stores.js'
 	import { v4 as uuidv4 } from 'uuid'
 
+	// import Spinner from './Spinner.svelte';
+  import { onMount } from 'svelte';
+
+  let ready = false;
+
+  onMount(() => {
+    setTimeout(() => {
+      ready = true;
+    }, 2000);
+  });
 	timers.useLocalStorage()
 
 	let name = ''
@@ -55,6 +65,61 @@
 	}
 
 </script>
+<header>
+<div class="nk-wrap">
+	<header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
+	  <!-- Header @s -->
+	  <div class="header-main">
+		<div class="header-container container">
+		  <div class="header-wrap">
+			<!-- Logo @s -->
+			<div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
+			  <a href="./" class="logo-link">
+				<img class="logo-dark" src="images/logo.png" srcset="images/logo2x.png 2x" alt="logo" />
+				<img class="logo-light" src="images/logo-white.png" srcset="images/logo-white2x.png 2x" alt="logo" />
+			  </a>
+			</div>
+  
+			<!-- Menu Toogle @s -->
+			<div class="header-nav-toggle">
+			  <!-- svelte-ignore a11y-invalid-attribute -->
+			  <a href="#" class="navbar-toggle" data-menu-toggle="example-menu-04">
+				<div class="toggle-line">
+				  <span></span>
+				</div>
+			  </a>
+			</div>
+  
+			<!-- Menu @s -->
+			<div class="header-navbar header-navbar-s1">
+			  <nav class="header-menu" id="example-menu-04">
+				<ul class="menu menu-s2 animated" data-animate="fadeInDown" data-delay=".75">
+				  <li class="menu-item"><a class="menu-link nav-link" href="#ico">About</a></li>
+				  <li class="menu-item"><a class="menu-link nav-link" href="#token">Tokenomics</a></li>
+				  <li class="menu-item"><a class="menu-link nav-link" href="#roadmap">Roadmap</a></li>
+				  <li class="menu-item"><a class="menu-link nav-link" href="#news">News</a></li>
+				  <li class="menu-item"><a class="menu-link nav-link" href="#news">RU RDY?</a></li>
+				  <li class="menu-item">
+					<a class="menu-link nav-link" href="https://pbom.rocketbunny.io/wrap.html">Wrap $BUNNY</a>
+				  </li>
+				</ul>
+				<ul class="menu-btns animated" data-animate="fadeInDown" data-delay=".85">
+				  <li>
+					<a
+					  href="https://drop.rocketbunny.io/"
+					  target="_blank"
+					  class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round"><span>ROCKET DROP</span></a
+					>
+				  </li>
+				</ul>
+			  </nav>
+			</div>
+			<!-- .header-navbar @e -->
+		  </div>
+		</div>
+	  </div>
+	  </div>
+	</header>
 
 <div class="uk-container">
 
@@ -89,9 +154,6 @@
 				{/if}
 			</div>
 		{:else}
-		<div>
-			<h1 style="color:darkred; font-size:80px; text-align: center; ">ARE YOU READY?</h1>
-		</div>
 			<button type="button" class="uk-button uk-button-default uk-button-large uk-align-center timer" on:click={(e) => {
 				name = ''
 				date = ''

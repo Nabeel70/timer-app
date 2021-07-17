@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Sat Jul 17 2021 08:52:08 GMT+0500 (Pakistan Standard Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/autogit.json
+
+
+Deleted files:
+
+
+Renamed files:
