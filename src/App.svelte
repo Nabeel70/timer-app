@@ -1,4 +1,5 @@
 <script>
+	import Spinner from './Spinner.svelte'
 	import CountdownTimer from './CountdownTimer.svelte'
 	import { timers } from './stores.js'
 	import { v4 as uuidv4 } from 'uuid'
@@ -120,7 +121,7 @@
 	  </div>
 	  </div>
 	</header>
-
+<br><br> <br> <br> <br><br> <br> <br> <br><br> <br>
 <div class="uk-container">
 
 	<div>
@@ -170,6 +171,53 @@
 		{/each}
 	</div>
 </div>
+
+<footer class="nk-footer bg-theme-alt section-connect">
+    <div class="section section-m pb-0 tc-light ov-h">
+      <div class="section section-footer section-s tc-light bg-transparent">
+        <div class="container">
+          <!-- Block @s -->
+          <div class="nk-block block-footer">
+            <div class="row">
+              <div class="col">
+                <div class="wgs wgs-text text-center mb-3">
+                  <ul class="social pdb-m justify-content-center">
+                    <li>
+                      <a href="https://t.me/RocketBunnyChat" target="_blank">
+                        <em class="social-icon fab fa-telegram"></em>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/RocketBunny2021" target="_blank">
+                        <em class="social-icon fab fa-twitter"></em>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://rocketbunny.medium.com/" target="_blank">
+                        <em class="social-icon fab fa-medium-m"></em>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCyaV80BMsZPoT_bxPZ_rg4Q" target="_blank">
+                        <em class="social-icon fab fa-youtube"></em>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="copyright-text copyright-text-s3 pdt-m">
+                    <p><span class="d-sm-block">Copyright &copy; 2021, <a href="./">ROCKET BUNNY</a></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .block @e -->
+        </div>
+      </div>
+    </div>
+  </footer>
+{#if !ready}
+  <Spinner />
+{/if}
 
 <style>
 	.timer {

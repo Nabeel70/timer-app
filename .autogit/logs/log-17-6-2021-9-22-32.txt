@@ -1,0 +1,138 @@
+-------------------- Auto-Git Log --------------------
+		Sat Jul 17 2021 09:22:32 GMT+0500 (Pakistan Standard Time)
+------------------------------------------------------
+
+Modified files:
+* public/index.html
+* src/App.svelte
+
+
+Created files:
+* .autogit/logs/log-17-6-2021-8-52-8.txt
+* public/assets/Richard_Cheney_2005_official_portrait.jpg
+* public/assets/css/style-dark.css
+* public/assets/css/theme.css
+* public/assets/css/vendor.bundle.css
+* "public/assets/fonts/Ikon-Crypto 8.30.48 PM.svg"
+* "public/assets/fonts/Ikon-Crypto 8.30.48 PM.ttf"
+* public/assets/fonts/Ikon-Crypto.svg
+* public/assets/fonts/Ikon-Crypto.ttf
+* public/assets/fonts/Ikon-Crypto.woff
+* "public/assets/fonts/Ikon-Crypto.woff 8.30.48 PM"
+* public/assets/fonts/Poppins-Bold.eot
+* public/assets/fonts/Poppins-Bold.ttf
+* public/assets/fonts/Poppins-Bold.woff
+* public/assets/fonts/Poppins-Bold.woff2
+* public/assets/fonts/Poppins-Light.eot
+* public/assets/fonts/Poppins-Light.ttf
+* public/assets/fonts/Poppins-Light.woff
+* public/assets/fonts/Poppins-Light.woff2
+* public/assets/fonts/Poppins-Medium.eot
+* public/assets/fonts/Poppins-Medium.ttf
+* public/assets/fonts/Poppins-Medium.woff
+* public/assets/fonts/Poppins-Medium.woff2
+* public/assets/fonts/Poppins-Regular.eot
+* public/assets/fonts/Poppins-Regular.ttf
+* public/assets/fonts/Poppins-Regular.woff
+* public/assets/fonts/Poppins-Regular.woff2
+* public/assets/fonts/Poppins-SemiBold.eot
+* public/assets/fonts/Poppins-SemiBold.ttf
+* public/assets/fonts/Poppins-SemiBold.woff
+* public/assets/fonts/Poppins-SemiBold.woff2
+* public/assets/fonts/fa-brands-400.eot
+* public/assets/fonts/fa-brands-400.svg
+* public/assets/fonts/fa-brands-400.ttf
+* public/assets/fonts/fa-brands-400.woff
+* public/assets/fonts/fa-brands-400.woff2
+* "public/assets/fonts/fa-regular-400 8.30.58 PM.svg"
+* "public/assets/fonts/fa-regular-400 8.30.58 PM.ttf"
+* public/assets/fonts/fa-regular-400.eot
+* "public/assets/fonts/fa-regular-400.eot 8.30.58 PM"
+* public/assets/fonts/fa-regular-400.svg
+* public/assets/fonts/fa-regular-400.ttf
+* public/assets/fonts/fa-regular-400.woff
+* "public/assets/fonts/fa-regular-400.woff 8.30.58 PM"
+* public/assets/fonts/fa-regular-400.woff2
+* "public/assets/fonts/fa-regular-400.woff2 8.30.58 PM"
+* "public/assets/fonts/fa-solid-900 8.30.48 PM.svg"
+* "public/assets/fonts/fa-solid-900 8.30.48 PM.ttf"
+* public/assets/fonts/fa-solid-900.eot
+* "public/assets/fonts/fa-solid-900.eot 8.30.48 PM"
+* public/assets/fonts/fa-solid-900.svg
+* public/assets/fonts/fa-solid-900.ttf
+* public/assets/fonts/fa-solid-900.woff
+* "public/assets/fonts/fa-solid-900.woff 8.30.48 PM"
+* public/assets/fonts/fa-solid-900.woff2
+* "public/assets/fonts/fa-solid-900.woff2 8.30.48 PM"
+* public/assets/fonts/index.html
+* public/assets/fonts/themify.eot
+* public/assets/fonts/themify.svg
+* public/assets/fonts/themify.ttf
+* public/assets/fonts/themify.woff
+* public/assets/images/dot-b.png
+* public/assets/images/dot-c.png
+* public/assets/images/index.html
+* public/assets/images/light-ix.png
+* public/assets/images/mask-a-md.png
+* public/assets/images/mask-a-md.svg
+* public/assets/images/mask-a.png
+* public/assets/images/mask-b.png
+* public/assets/images/mask-c-dark.svg
+* public/assets/images/mask-c-light.png
+* public/assets/images/mask-c.png
+* public/assets/images/mask-d.png
+* public/assets/images/mask-d.svg
+* public/assets/images/mask-e.png
+* public/assets/images/mask-e.svg
+* public/assets/images/mask-f-footer.png
+* public/assets/images/mask-f.png
+* public/assets/images/polygon-a-light.png
+* public/assets/images/shape-a.png
+* public/assets/images/shape-b.png
+* public/assets/images/shape-c.png
+* public/assets/images/shape-d.png
+* public/assets/images/shape-e-sm.png
+* public/assets/images/shape-e.png
+* public/assets/images/shape-f.png
+* public/assets/images/shape-g-sm.png
+* public/assets/images/shape-g.png
+* public/assets/images/shape-i-sm.png
+* public/assets/images/shape-p.png
+* public/assets/images/shape-q.png
+* public/assets/images/shape-r.png
+* public/assets/images/shape-s-sm.png
+* public/assets/images/shape-s.png
+* public/assets/images/shape-t.png
+* public/assets/images/shape-u.png
+* public/assets/images/shape-v.png
+* public/assets/images/shape-w.png
+* public/assets/images/shape-z2.png
+* public/assets/images/shape-z3.png
+* public/assets/images/shape-z4.png
+* public/assets/images/shape-z6.png
+* public/assets/images/shape-z7.png
+* public/assets/js/charts.js
+* public/assets/js/jquery.bundle.js
+* public/assets/js/scripts.js
+* public/assets/js/toastr.examples.js
+* public/error-404-dark.html
+* public/images/blog/a.jpg
+* public/images/blog/b.jpg
+* public/images/blog/c.jpg
+* public/images/dark/gfx-d-dark.png
+* public/images/dark/gfx-z-c.png
+* public/images/favicon.ico
+* public/images/icons/icon-custom.png
+* public/images/index.html
+* public/images/light/gfx-z-a.png
+* public/images/logo-white.png
+* public/images/logo-white2x.png
+* public/images/logo.png
+* public/tailwind.build.css
+* public/tailwind.source.css
+
+
+Deleted files:
+
+
+Renamed files:
