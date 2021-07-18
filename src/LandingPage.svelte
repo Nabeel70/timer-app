@@ -218,16 +218,3 @@
 {#if !ready}
   <Spinner />
 {/if}
-
-<style>
-	.timer {
-		color: white;
-	}
-
-	.warning {
-		border: 2px solid red;
-	}
-	.error {
-		color: red;
-	}
-</style>

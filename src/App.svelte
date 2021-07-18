@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Spinner from './Spinner.svelte';
 	import { onMount } from 'svelte';
+
   
 	let ready = false;
   
@@ -10,6 +11,7 @@
 	  }, 2000);
 	});
   </script>
+
   
   <div class="nk-wrap">
 	<header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
@@ -43,7 +45,7 @@
 				  <li class="menu-item"><a class="menu-link nav-link" href="#token">Tokenomics</a></li>
 				  <li class="menu-item"><a class="menu-link nav-link" href="#roadmap">Roadmap</a></li>
 				  <li class="menu-item"><a class="menu-link nav-link" href="#news">News</a></li>
-				  <li class="menu-item"><a class="menu-link nav-link" href="#news">RU RDY?</a></li>
+				  <li class="menu-item"><a class="menu-link nav-link" href="./LandingPage.svelte">RU RDY?</a></li>
 				  <li class="menu-item">
 					<a class="menu-link nav-link" href="https://pbom.rocketbunny.io/wrap.html">Wrap $BUNNY</a>
 				  </li>
@@ -597,13 +599,7 @@
 	</footer>
   </div>
   
-  {#if !ready}
-	<Spinner />
-  {/if}
-  
-  <style global>
-	body {
-	  background: #000000;
-	}
-  </style>
-  
+{#if !ready}
+  <!-- svelte-ignore missing-declaration -->
+  <Spinner />
+{/if}

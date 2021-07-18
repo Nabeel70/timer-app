@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Sat Jul 17 2021 10:50:03 GMT+0500 (Pakistan Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.svelte
+
+
+Created files:
+* .autogit/logs/log-17-6-2021-10-19-44.txt
+* src/LandingPage.svelte
+
+
+Deleted files:
+
+
+Renamed files:
