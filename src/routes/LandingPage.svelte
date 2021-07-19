@@ -1,7 +1,7 @@
 <script>
-	import Spinner from './Spinner.svelte'
-	import CountdownTimer from './CountdownTimer.svelte'
-	import { timers } from './stores.js'
+	import Spinner from '../Spinner.svelte'
+	import CountdownTimer from '../CountdownTimer.svelte'
+	import { timers } from '../stores.js'
 	import { v4 as uuidv4 } from 'uuid'
 
 	// import Spinner from './Spinner.svelte';
@@ -76,8 +76,8 @@
 			<!-- Logo @s -->
 			<div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
 			  <a href="./" class="logo-link">
-				<img class="logo-dark" src="images/logo.png" srcset="images/logo2x.png 2x" alt="logo" />
-				<img class="logo-light" src="images/logo-white.png" srcset="images/logo-white2x.png 2x" alt="logo" />
+				<img class="logo-dark" src="../../public/images/logo.png" srcset="../../public/images/logo2x.png 2x" alt="logo" />
+				<img class="logo-light" src="../../public/images/logo-white.png" srcset="../../public/images/logo-white2x.png 2x" alt="logo" />
 			  </a>
 			</div>
   
@@ -99,7 +99,7 @@
 				  <li class="menu-item"><a class="menu-link nav-link" href="#token">Tokenomics</a></li>
 				  <li class="menu-item"><a class="menu-link nav-link" href="#roadmap">Roadmap</a></li>
 				  <li class="menu-item"><a class="menu-link nav-link" href="#news">News</a></li>
-				  <li class="menu-item"><a class="menu-link nav-link" href="/">RU RDY?</a></li>
+				  <li class="menu-item"><a class="menu-link nav-link" href="#LandingPage">RU RDY?</a></li>
 				  <li class="menu-item">
 					<a class="menu-link nav-link" href="https://pbom.rocketbunny.io/wrap.html">Wrap $BUNNY</a>
 				  </li>

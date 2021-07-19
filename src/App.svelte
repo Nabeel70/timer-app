@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Spinner from './Spinner.svelte';
 	import { onMount } from 'svelte';
-	import Router, {location, link} from 'svelte-spa-router';
+	import Router, {link} from 'svelte-spa-router';
 	import LandingPage from './routes/LandingPage.svelte';
 
   
@@ -48,20 +48,12 @@
 				  <li class="menu-item"><a class="menu-link nav-link" href="#roadmap">Roadmap</a></li>
 				  <li class="menu-item"><a class="menu-link nav-link" href="#news">News</a></li>
 				  <!-- svelte-ignore missing-declaration -->
-				  <li class="menu-item"><a class="menu-link nav-link" use:link href="./LandingPage.svelte">RU RDY?</a></li>
+				  <li class="menu-item"><a class="menu-link nav-link" use:link href="./routes/LandingPage.svelte">RU RDY?</a></li>
 				  <li class="menu-item">
 					<a class="menu-link nav-link" href="https://pbom.rocketbunny.io/wrap.html">Wrap $BUNNY</a>
 				  </li>
+				  <!-- svelte-ignore missing-declaration -->
 				</ul>
-				<ul class="menu-btns animated" data-animate="fadeInDown" data-delay=".85">
-					<li>
-					  <a
-						href="../../../Desktop/svelte-countdown-timer/src/LandingPage.svelte"
-						target="_blank"
-						class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round"><span>Nobi</span></a
-					  >
-					</li>
-				  </ul>
 				<ul class="menu-btns animated" data-animate="fadeInDown" data-delay=".85">
 				  <li>
 					<a
@@ -79,9 +71,10 @@
 	  </div>
 
 
+	  svelte-ignore missing-declaration -->
 	  <!-- svelte-ignore missing-declaration -->
 	  <Router routes={{
-		  '/LangingPage' : LandingPage
+		  './routes/LandingPage.svelte' : LandingPage
 	  }} />
 
 

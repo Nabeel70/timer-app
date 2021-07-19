@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jul 19 2021 09:46:42 GMT+0500 (Pakistan Standard Time)
+------------------------------------------------------
+
+Modified files:
+* package-lock.json
+* package.json
+* src/App.svelte
+
+
+Created files:
+* .autogit/logs/log-18-6-2021-13-9-34.txt
+
+
+Deleted files:
+
+
+Renamed files:
+* [object Object]
